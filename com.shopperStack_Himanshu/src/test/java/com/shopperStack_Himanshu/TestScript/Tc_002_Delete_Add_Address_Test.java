@@ -10,7 +10,7 @@ import com.shopperStack.genricUtility.WebDriverUtility;
 import com.shopperStack_Himanshu.MyAddresses_page;
 import com.shopperStack_Himanshu.Myprofile_page;
 
-public class Tc_002_Delete_Add_Address extends BaseTest {
+public class Tc_002_Delete_Add_Address_Test extends BaseTest {
 	
 	@Test
 	public void deteleaddress() throws InterruptedException, IOException

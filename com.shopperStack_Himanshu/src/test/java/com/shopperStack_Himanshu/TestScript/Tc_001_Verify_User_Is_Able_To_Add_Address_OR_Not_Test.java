@@ -10,7 +10,7 @@ import com.shopperStack_Himanshu.AddressFrom_page;
 import com.shopperStack_Himanshu.MyAddresses_page;
 import com.shopperStack_Himanshu.Myprofile_page;
 
-public class Tc_001_Verify_User_Is_Able_To_Add_Address_OR_Not  extends BaseTest {
+public class Tc_001_Verify_User_Is_Able_To_Add_Address_OR_Not_Test  extends BaseTest {
 	
 	@Test
 	public void addAddress() throws InterruptedException, EncryptedDocumentException, IOException

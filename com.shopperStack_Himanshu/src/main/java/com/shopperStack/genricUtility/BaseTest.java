@@ -49,8 +49,7 @@ public class BaseTest {
 	@BeforeTest
 	public void beforeTest() {
 		System.out.println("BeforeTest");
-		spark = new ExtentSparkReporter(
-				FrameworkConstent.extentReportsPath + javaUtitilty.getLocalDateTime() + ".html");
+		spark = new ExtentSparkReporter(FrameworkConstent.extentReportsPath + javaUtitilty.getLocalDateTime() + ".html");
 		reports = new ExtentReports();
 		reports.attachReporter(spark);
 		test = reports.createTest("Demo");

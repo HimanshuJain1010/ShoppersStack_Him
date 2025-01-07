@@ -19,6 +19,13 @@ public class MyAddresses_page {
 	
 	@FindBy(xpath = "(//button[text() ='Yes'])[1]")
 	private WebElement yesbtn;
+	
+	@FindBy(xpath = "//button[text()='Yes']")
+	private WebElement Popbtn;
+
+	public WebElement getPopbtn() {
+		return Popbtn;
+	}
 
 	public WebElement getAddaddressbtn() {
 		return addaddressbtn;

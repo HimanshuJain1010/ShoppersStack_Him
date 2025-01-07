@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.shopperStack_Himanshu.TestScript.Tc_001_Verify_User_Is_Able_To_Add_Address_OR_Not">
+      <class name="com.shopperStack_Himanshu.TestScript.Tc_002_Delete_Add_Address">
         <methods>
           <include name="beforeMethod"/>
           <include name="beforeSuite"/>
-          <include name="addAddress"/>
           <include name="beforeTest"/>
           <include name="beforeClass"/>
           <include name="afterSuite"/>
+          <include name="deteleaddress"/>
           <include name="afterClass"/>
           <include name="afterTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.shopperStack_Himanshu.TestScript.Tc_001_Verify_User_Is_Able_To_Add_Address_OR_Not -->
+      </class> <!-- com.shopperStack_Himanshu.TestScript.Tc_002_Delete_Add_Address -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
